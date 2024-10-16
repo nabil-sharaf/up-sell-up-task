@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-use App\DTOs\TaskDTO;
+use App\DTO\TaskDTO;
 use App\Models\Task;
 
 class TaskService

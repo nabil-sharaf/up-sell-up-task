@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\DTOs\TaskDTO;
+use App\DTO\TaskDTO;
 use App\Http\Requests\TaskRequest;
 use App\Services\TaskService;
-use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
