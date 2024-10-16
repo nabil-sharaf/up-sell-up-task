@@ -25,7 +25,7 @@
         <label>Status:</label>
         <select name="status">
             <option value="pending">Pending</option>
-            <option value="in-progress">In Progress</option>
+            <option value="progress">In Progress</option>
             <option value="completed">Completed</option>
         </select>
         @error('status')

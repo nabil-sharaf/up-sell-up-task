@@ -12,8 +12,8 @@ class TaskDTO
     {
         $this->title = $data['title'];
         $this->description = $data['description'];
-        $this->assigned_to = $data['assigned_to'] ?? null;
-        $this->status = $data['status'] ?? 'pending';
+        $this->assigned_to = $data['assigned_to'];
+        $this->status = $data['status'] ;
     }
     public function toArray()
     {

@@ -21,7 +21,7 @@ class TaskRequest extends FormRequest
             'title' => 'required|string|max:255',
             'description' => 'required|string|min:10',
             'assigned_to' => 'nullable|integer|exists:users,id',
-            'status' => 'required|in:pending,in-progress,completed',
+            'status' => 'required|in:pending,progress,completed',
         ];
     }
 }
