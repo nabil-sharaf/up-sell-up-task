@@ -22,6 +22,16 @@
         <span style="color: red; margin-left: 10px;">{{ $message }}</span>
         @enderror
         <br>
+        <label>Status:</label>
+        <select name="status">
+            <option value="pending">Pending</option>
+            <option value="in-progress">In Progress</option>
+            <option value="completed">Completed</option>
+        </select>
+        @error('status')
+        <span style="color: red; margin-left: 10px;">{{ $message }}</span>
+        @enderror
+        <br>
         <button type="submit">Create Task</button>
     </form>
 @endsection
